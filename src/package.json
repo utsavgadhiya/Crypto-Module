@@ -1,0 +1,18 @@
+{
+  "name": "crypto-service",
+  "version": "1.0.0",
+  "description": "A service for encrypting and decrypting of users' data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utsav Gadhiya",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
