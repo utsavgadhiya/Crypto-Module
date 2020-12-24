@@ -1,11 +1,18 @@
 {
   "name": "@utsavgadhiya/crypto-module",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A module for encrypting and decrypting data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "crypto",
+    "crypto-module",
+    "encryption",
+    "decryption",
+    "aes-256"
+  ],
   "author": "Utsav Gadhiya",
   "license": "MIT"
 }
