@@ -1,7 +1,7 @@
 'use strict'
 
 const _crypto = require('crypto')
-const CRYPTO_SECRET = "p3s6v9y$B&E)H@MbQeThWmZq4t7w!z%C"
+const CRYPTO_SECRET = "your-very-secret-crypt-key"
 const CRYPTO_IV = "03 7d 98 00 fd 70 82 1e 5c e4"
 const ivstring = CRYPTO_IV.toString('hex').slice(0, 16)
 
