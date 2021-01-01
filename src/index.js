@@ -1,9 +1,8 @@
 'use strict'
 
 const _crypto = require('crypto')
-const CRYPTO_SECRET = "your-very-secret-crypt-key"
-const CRYPTO_IV = "03 7d 98 00 fd 70 82 1e 5c e4"
-const ivstring = CRYPTO_IV.toString('hex').slice(0, 16)
+const CRYPTO_SECRET = "your-super-secret-key"
+const ivstring = Buffer.alloc(16, 0)
 
 exports.encrypt = async function (plainObject, secret = CRYPTO_SECRET) {
     /**

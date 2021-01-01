@@ -17,13 +17,13 @@ npm i @utsavgadhiya/crypto-module
         {
             "members": [
                 {
-                    "username": "John",
-                    "email": "Decoy",
+                    "username": "Harry",
+                    "email": ""harry.potter@hogwards.edu",
                     "gender": "Male"
                 },
                 {
-                    "username": "Melisaa",
-                    "email": "Derona",
+                    "username": "Hermione",
+                    "email": "hermione.granger@hogwards.edu",
                     "gender": "Female"
                 }
             ]
