@@ -18,7 +18,7 @@ npm i @utsavgadhiya/crypto-module
             "members": [
                 {
                     "username": "Harry",
-                    "email": ""harry.potter@hogwards.edu",
+                    "email": "harry.potter@hogwards.edu",
                     "gender": "Male"
                 },
                 {
